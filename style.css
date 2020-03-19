@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.hexColor {
+  text-transform: capitalize;
+}
+
+.hex {
+  font-size: 3rem;
+}
+
+.hexBtn {
+  padding: 0.5rem 0.8rem;
+  border: 2px solid #fefefe;
+  border-radius: 7px;
+  color: #fefefe;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s;
+  margin-top: 20px;
+}
+
+.hexBtn:hover {
+  background: rgba(0, 0, 0, 1);
+  transition: background-color 0.5s;
+}
